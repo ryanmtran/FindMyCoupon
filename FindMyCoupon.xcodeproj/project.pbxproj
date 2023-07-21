@@ -1,0 +1,584 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EF25789A2A6A35560067EDCB /* FindMyCouponApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF2578992A6A35560067EDCB /* FindMyCouponApp.swift */; };
+		EF25789C2A6A35560067EDCB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF25789B2A6A35560067EDCB /* ContentView.swift */; };
+		EF25789E2A6A35580067EDCB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF25789D2A6A35580067EDCB /* Assets.xcassets */; };
+		EF2578A12A6A35580067EDCB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF2578A02A6A35580067EDCB /* Preview Assets.xcassets */; };
+		EF2578AB2A6A35590067EDCB /* FindMyCouponTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF2578AA2A6A35590067EDCB /* FindMyCouponTests.swift */; };
+		EF2578B52A6A35590067EDCB /* FindMyCouponUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF2578B42A6A35590067EDCB /* FindMyCouponUITests.swift */; };
+		EF2578B72A6A35590067EDCB /* FindMyCouponUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF2578B62A6A35590067EDCB /* FindMyCouponUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EF2578A72A6A35590067EDCB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EF25788E2A6A35560067EDCB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EF2578952A6A35560067EDCB;
+			remoteInfo = FindMyCoupon;
+		};
+		EF2578B12A6A35590067EDCB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EF25788E2A6A35560067EDCB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EF2578952A6A35560067EDCB;
+			remoteInfo = FindMyCoupon;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EF2578962A6A35560067EDCB /* FindMyCoupon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FindMyCoupon.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF2578992A6A35560067EDCB /* FindMyCouponApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindMyCouponApp.swift; sourceTree = "<group>"; };
+		EF25789B2A6A35560067EDCB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		EF25789D2A6A35580067EDCB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EF2578A02A6A35580067EDCB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		EF2578A62A6A35590067EDCB /* FindMyCouponTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FindMyCouponTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF2578AA2A6A35590067EDCB /* FindMyCouponTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindMyCouponTests.swift; sourceTree = "<group>"; };
+		EF2578B02A6A35590067EDCB /* FindMyCouponUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FindMyCouponUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF2578B42A6A35590067EDCB /* FindMyCouponUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindMyCouponUITests.swift; sourceTree = "<group>"; };
+		EF2578B62A6A35590067EDCB /* FindMyCouponUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindMyCouponUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EF2578932A6A35560067EDCB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF2578A32A6A35590067EDCB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF2578AD2A6A35590067EDCB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EF25788D2A6A35560067EDCB = {
+			isa = PBXGroup;
+			children = (
+				EF2578982A6A35560067EDCB /* FindMyCoupon */,
+				EF2578A92A6A35590067EDCB /* FindMyCouponTests */,
+				EF2578B32A6A35590067EDCB /* FindMyCouponUITests */,
+				EF2578972A6A35560067EDCB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EF2578972A6A35560067EDCB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EF2578962A6A35560067EDCB /* FindMyCoupon.app */,
+				EF2578A62A6A35590067EDCB /* FindMyCouponTests.xctest */,
+				EF2578B02A6A35590067EDCB /* FindMyCouponUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EF2578982A6A35560067EDCB /* FindMyCoupon */ = {
+			isa = PBXGroup;
+			children = (
+				EF2578992A6A35560067EDCB /* FindMyCouponApp.swift */,
+				EF25789B2A6A35560067EDCB /* ContentView.swift */,
+				EF25789D2A6A35580067EDCB /* Assets.xcassets */,
+				EF25789F2A6A35580067EDCB /* Preview Content */,
+			);
+			path = FindMyCoupon;
+			sourceTree = "<group>";
+		};
+		EF25789F2A6A35580067EDCB /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				EF2578A02A6A35580067EDCB /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		EF2578A92A6A35590067EDCB /* FindMyCouponTests */ = {
+			isa = PBXGroup;
+			children = (
+				EF2578AA2A6A35590067EDCB /* FindMyCouponTests.swift */,
+			);
+			path = FindMyCouponTests;
+			sourceTree = "<group>";
+		};
+		EF2578B32A6A35590067EDCB /* FindMyCouponUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EF2578B42A6A35590067EDCB /* FindMyCouponUITests.swift */,
+				EF2578B62A6A35590067EDCB /* FindMyCouponUITestsLaunchTests.swift */,
+			);
+			path = FindMyCouponUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EF2578952A6A35560067EDCB /* FindMyCoupon */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF2578BA2A6A35590067EDCB /* Build configuration list for PBXNativeTarget "FindMyCoupon" */;
+			buildPhases = (
+				EF2578922A6A35560067EDCB /* Sources */,
+				EF2578932A6A35560067EDCB /* Frameworks */,
+				EF2578942A6A35560067EDCB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FindMyCoupon;
+			productName = FindMyCoupon;
+			productReference = EF2578962A6A35560067EDCB /* FindMyCoupon.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EF2578A52A6A35590067EDCB /* FindMyCouponTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF2578BD2A6A35590067EDCB /* Build configuration list for PBXNativeTarget "FindMyCouponTests" */;
+			buildPhases = (
+				EF2578A22A6A35590067EDCB /* Sources */,
+				EF2578A32A6A35590067EDCB /* Frameworks */,
+				EF2578A42A6A35590067EDCB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EF2578A82A6A35590067EDCB /* PBXTargetDependency */,
+			);
+			name = FindMyCouponTests;
+			productName = FindMyCouponTests;
+			productReference = EF2578A62A6A35590067EDCB /* FindMyCouponTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EF2578AF2A6A35590067EDCB /* FindMyCouponUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF2578C02A6A35590067EDCB /* Build configuration list for PBXNativeTarget "FindMyCouponUITests" */;
+			buildPhases = (
+				EF2578AC2A6A35590067EDCB /* Sources */,
+				EF2578AD2A6A35590067EDCB /* Frameworks */,
+				EF2578AE2A6A35590067EDCB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EF2578B22A6A35590067EDCB /* PBXTargetDependency */,
+			);
+			name = FindMyCouponUITests;
+			productName = FindMyCouponUITests;
+			productReference = EF2578B02A6A35590067EDCB /* FindMyCouponUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EF25788E2A6A35560067EDCB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					EF2578952A6A35560067EDCB = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					EF2578A52A6A35590067EDCB = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = EF2578952A6A35560067EDCB;
+					};
+					EF2578AF2A6A35590067EDCB = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = EF2578952A6A35560067EDCB;
+					};
+				};
+			};
+			buildConfigurationList = EF2578912A6A35560067EDCB /* Build configuration list for PBXProject "FindMyCoupon" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EF25788D2A6A35560067EDCB;
+			productRefGroup = EF2578972A6A35560067EDCB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EF2578952A6A35560067EDCB /* FindMyCoupon */,
+				EF2578A52A6A35590067EDCB /* FindMyCouponTests */,
+				EF2578AF2A6A35590067EDCB /* FindMyCouponUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EF2578942A6A35560067EDCB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF2578A12A6A35580067EDCB /* Preview Assets.xcassets in Resources */,
+				EF25789E2A6A35580067EDCB /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF2578A42A6A35590067EDCB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF2578AE2A6A35590067EDCB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EF2578922A6A35560067EDCB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF25789C2A6A35560067EDCB /* ContentView.swift in Sources */,
+				EF25789A2A6A35560067EDCB /* FindMyCouponApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF2578A22A6A35590067EDCB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF2578AB2A6A35590067EDCB /* FindMyCouponTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF2578AC2A6A35590067EDCB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF2578B52A6A35590067EDCB /* FindMyCouponUITests.swift in Sources */,
+				EF2578B72A6A35590067EDCB /* FindMyCouponUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EF2578A82A6A35590067EDCB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EF2578952A6A35560067EDCB /* FindMyCoupon */;
+			targetProxy = EF2578A72A6A35590067EDCB /* PBXContainerItemProxy */;
+		};
+		EF2578B22A6A35590067EDCB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EF2578952A6A35560067EDCB /* FindMyCoupon */;
+			targetProxy = EF2578B12A6A35590067EDCB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		EF2578B82A6A35590067EDCB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EF2578B92A6A35590067EDCB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EF2578BB2A6A35590067EDCB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"FindMyCoupon/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Ryan-Tran.FindMyCoupon";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EF2578BC2A6A35590067EDCB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"FindMyCoupon/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Ryan-Tran.FindMyCoupon";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		EF2578BE2A6A35590067EDCB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Ryan-Tran.FindMyCouponTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FindMyCoupon.app/FindMyCoupon";
+			};
+			name = Debug;
+		};
+		EF2578BF2A6A35590067EDCB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Ryan-Tran.FindMyCouponTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FindMyCoupon.app/FindMyCoupon";
+			};
+			name = Release;
+		};
+		EF2578C12A6A35590067EDCB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Ryan-Tran.FindMyCouponUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FindMyCoupon;
+			};
+			name = Debug;
+		};
+		EF2578C22A6A35590067EDCB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Ryan-Tran.FindMyCouponUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FindMyCoupon;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EF2578912A6A35560067EDCB /* Build configuration list for PBXProject "FindMyCoupon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF2578B82A6A35590067EDCB /* Debug */,
+				EF2578B92A6A35590067EDCB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF2578BA2A6A35590067EDCB /* Build configuration list for PBXNativeTarget "FindMyCoupon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF2578BB2A6A35590067EDCB /* Debug */,
+				EF2578BC2A6A35590067EDCB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF2578BD2A6A35590067EDCB /* Build configuration list for PBXNativeTarget "FindMyCouponTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF2578BE2A6A35590067EDCB /* Debug */,
+				EF2578BF2A6A35590067EDCB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF2578C02A6A35590067EDCB /* Build configuration list for PBXNativeTarget "FindMyCouponUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF2578C12A6A35590067EDCB /* Debug */,
+				EF2578C22A6A35590067EDCB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EF25788E2A6A35560067EDCB /* Project object */;
+}
